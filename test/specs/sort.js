@@ -12,7 +12,7 @@ describe("Search results sorting", function() {
         sortByPriceLink.click()
         browser.pause(2000)
 
-        const searchResults = searchResultsPage.$$('.product.column')
+        const searchResults = searchResultsPage.$$('.product-column')
       
         const itemPrices = searchResults.map(function (item){
             return item.getAttribute('data-price')          
