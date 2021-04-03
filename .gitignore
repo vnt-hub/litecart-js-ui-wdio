@@ -107,10 +107,7 @@ dist
 
 # Wdio basic
 example.e2e.js
-login.page.js
-page.js
-secure.page.js
-smoke2.js
+pageobjects
 
 # TernJS port file
 .tern-port
